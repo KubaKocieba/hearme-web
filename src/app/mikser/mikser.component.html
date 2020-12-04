@@ -1,0 +1,7 @@
+<div>
+	<h3>{{ mikserLabel }}</h3>
+	<div class="Mikser">
+		<ng-content *ngFor="let channel of channels; let channelNum = index; template: channelTemplate"
+			[channelNumber]="channelNum"></ng-content>
+	</div>
+</div>

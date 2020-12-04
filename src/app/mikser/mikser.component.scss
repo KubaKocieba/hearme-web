@@ -1,0 +1,16 @@
+* {
+  display: block;
+  overflow: scroll;
+  text-align: center;
+}
+
+.Mikser {
+  background-color: grey;
+  padding: 20px 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 60px;
+  justify-items: center;
+  align-items: center;
+  overflow-x: scroll;
+}
